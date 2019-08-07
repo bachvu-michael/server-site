@@ -26,6 +26,9 @@
       <Host name="bachsoftwarevul.shop" appBase="webapps">
           <Context path="" docBase="/var/www/bachsoftware.shop" />
       </Host>
+      <Host name="ielts4chance.shop" appBase="webapps">
+          <Context path="" docBase="/var/www/ielts4chance" />
+      </Host>
 
     </Engine>
   </Service>
