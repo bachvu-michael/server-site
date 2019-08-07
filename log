@@ -1,0 +1,859 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2019 08:05:03.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.20
+07-Aug-2019 08:05:03.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2019 22:26:00 UTC
+07-Aug-2019 08:05:03.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.20.0
+07-Aug-2019 08:05:03.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Aug-2019 08:05:03.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-54-generic
+07-Aug-2019 08:05:03.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2019 08:05:03.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/lucee/jre
+07-Aug-2019 08:05:03.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.3+7
+07-Aug-2019 08:05:03.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+07-Aug-2019 08:05:03.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/lucee/tomcat
+07-Aug-2019 08:05:03.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/lucee/tomcat
+07-Aug-2019 08:05:03.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Aug-2019 08:05:03.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Aug-2019 08:05:03.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2019 08:05:03.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/lucee/tomcat/conf/logging.properties
+07-Aug-2019 08:05:03.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2019 08:05:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2019 08:05:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2019 08:05:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Aug-2019 08:05:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+07-Aug-2019 08:05:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+07-Aug-2019 08:05:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2019 08:05:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/lucee/tomcat
+07-Aug-2019 08:05:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/lucee/tomcat
+07-Aug-2019 08:05:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/lucee/tomcat/temp
+07-Aug-2019 08:05:03.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+07-Aug-2019 08:05:03.824 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:05:03.865 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:05:03.874 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [765] milliseconds
+07-Aug-2019 08:05:03.939 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2019 08:05:03.940 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.20]
+[mod_cfml] Starting mod_cfml version: 1.1.09
+07-Aug-2019 08:05:03.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/lucee/tomcat/webapps/ROOT]
+07-Aug-2019 08:05:04.480 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender (file:/opt/lucee/lib/lucee-5.3.2.77.jar) to method java.net.URLClassLoader.addURL(java.net.URL)
+WARNING: Please consider reporting this to the maintainers of org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+07-Aug-2019 08:05:13.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/lucee/tomcat/webapps/ROOT] has finished in [9,405] ms
+07-Aug-2019 08:05:13.363 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:05:13.424 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:05:13.439 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9,564] milliseconds
+07-Aug-2019 08:06:33.443 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+07-Aug-2019 08:06:33.445 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Aug-2019 08:06:38.769 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2019 08:06:38.771 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.filterStart Exception starting filter [UrlRewriteFilter]
+	java.lang.ClassNotFoundException: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1363)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:540)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:521)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+		at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:249)
+		at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:102)
+		at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4530)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5176)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3755)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1403)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1144)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1346)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1350)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1328)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+07-Aug-2019 08:06:38.772 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+07-Aug-2019 08:06:38.772 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+07-Aug-2019 08:06:38.776 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Aug-2019 08:19:53.274 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2019 08:19:53.275 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:19:53.277 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:19:53.283 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2019 08:19:53.284 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:19:53.289 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:19:53.290 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:19:53.292 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2019 08:19:55.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.20
+07-Aug-2019 08:19:55.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2019 22:26:00 UTC
+07-Aug-2019 08:19:55.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.20.0
+07-Aug-2019 08:19:55.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Aug-2019 08:19:55.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-54-generic
+07-Aug-2019 08:19:55.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2019 08:19:55.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/lucee/jre
+07-Aug-2019 08:19:55.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.3+7
+07-Aug-2019 08:19:55.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+07-Aug-2019 08:19:55.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/lucee/tomcat
+07-Aug-2019 08:19:55.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/lucee/tomcat
+07-Aug-2019 08:19:55.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/lucee/tomcat/conf/logging.properties
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+07-Aug-2019 08:19:55.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2019 08:19:55.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/lucee/tomcat
+07-Aug-2019 08:19:55.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/lucee/tomcat
+07-Aug-2019 08:19:55.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/lucee/tomcat/temp
+07-Aug-2019 08:19:55.543 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+07-Aug-2019 08:19:55.839 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:19:55.875 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:19:55.878 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [629] milliseconds
+07-Aug-2019 08:19:55.961 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2019 08:19:55.961 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.20]
+07-Aug-2019 08:19:56.565 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2019 08:19:56.606 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: conf reload check set to 1s
+07-Aug-2019 08:19:56.695 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender (file:/opt/lucee/lib/lucee-5.3.2.77.jar) to method java.net.URLClassLoader.addURL(java.net.URL)
+WARNING: Please consider reporting this to the maintainers of org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+07-Aug-2019 08:19:58.269 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 21 more
+	Caused by: java.lang.IllegalStateException: Unknown protocol: jrt
+		at org.apache.felix.framework.URLHandlersStreamHandlerProxy.hashCode(URLHandlersStreamHandlerProxy.java:224)
+		at java.base/java.net.URL.hashCode(URL.java:957)
+		at java.base/java.util.HashMap.hash(HashMap.java:339)
+		at java.base/java.util.HashMap.containsKey(HashMap.java:591)
+		at java.base/java.util.HashSet.contains(HashSet.java:204)
+		at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:288)
+		at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+		at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+		at org.apache.catalina.startup.ContextConfig.processJarsForWebFragments(ContextConfig.java:1963)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1129)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 27 more
+[mod_cfml] Starting mod_cfml version: 1.1.09
+07-Aug-2019 08:19:58.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/lucee/tomcat/webapps/ROOT]
+07-Aug-2019 08:19:58.320 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/opt/lucee/tomcat/webapps/ROOT]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[127.0.0.1].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+		... 37 more
+	Caused by: java.lang.IllegalStateException: Unknown protocol: jrt
+		at org.apache.felix.framework.URLHandlersStreamHandlerProxy.hashCode(URLHandlersStreamHandlerProxy.java:224)
+		at java.base/java.net.URL.hashCode(URL.java:957)
+		at java.base/java.util.HashMap.hash(HashMap.java:339)
+		at java.base/java.util.HashMap.containsKey(HashMap.java:591)
+		at java.base/java.util.HashSet.contains(HashSet.java:204)
+		at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:288)
+		at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+		at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+		at org.apache.catalina.startup.ContextConfig.processJarsForWebFragments(ContextConfig.java:1963)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1129)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+07-Aug-2019 08:19:58.323 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/lucee/tomcat/webapps/ROOT] has finished in [41] ms
+07-Aug-2019 08:19:58.323 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:921)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 21 more
+	Caused by: java.lang.IllegalStateException: Unknown protocol: jrt
+		at org.apache.felix.framework.URLHandlersStreamHandlerProxy.hashCode(URLHandlersStreamHandlerProxy.java:224)
+		at java.base/java.net.URL.hashCode(URL.java:957)
+		at java.base/java.util.HashMap.hash(HashMap.java:339)
+		at java.base/java.util.HashMap.containsKey(HashMap.java:591)
+		at java.base/java.util.HashSet.contains(HashSet.java:204)
+		at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:288)
+		at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+		at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+		at org.apache.catalina.startup.ContextConfig.processJarsForWebFragments(ContextConfig.java:1963)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1129)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 27 more
+07-Aug-2019 08:19:58.329 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:921)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:921)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 21 more
+	Caused by: java.lang.IllegalStateException: Unknown protocol: jrt
+		at org.apache.felix.framework.URLHandlersStreamHandlerProxy.hashCode(URLHandlersStreamHandlerProxy.java:224)
+		at java.base/java.net.URL.hashCode(URL.java:957)
+		at java.base/java.util.HashMap.hash(HashMap.java:339)
+		at java.base/java.util.HashMap.containsKey(HashMap.java:591)
+		at java.base/java.util.HashSet.contains(HashSet.java:204)
+		at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:288)
+		at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+		at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+		at org.apache.catalina.startup.ContextConfig.processJarsForWebFragments(ContextConfig.java:1963)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1129)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 27 more
+07-Aug-2019 08:19:58.333 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:19:58.334 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:19:58.334 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2019 08:19:58.335 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+07-Aug-2019 08:20:03.429 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [FelixResolver-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.3/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+07-Aug-2019 08:20:03.433 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [FelixResolver-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.3/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+07-Aug-2019 08:20:03.439 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:20:03.441 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2019 08:21:30.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.20
+07-Aug-2019 08:21:30.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2019 22:26:00 UTC
+07-Aug-2019 08:21:30.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.20.0
+07-Aug-2019 08:21:30.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Aug-2019 08:21:30.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-54-generic
+07-Aug-2019 08:21:30.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2019 08:21:30.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/lucee/jre
+07-Aug-2019 08:21:30.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.3+7
+07-Aug-2019 08:21:30.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+07-Aug-2019 08:21:30.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/lucee/tomcat
+07-Aug-2019 08:21:30.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/lucee/tomcat
+07-Aug-2019 08:21:30.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Aug-2019 08:21:30.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Aug-2019 08:21:30.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2019 08:21:30.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/lucee/tomcat/conf/logging.properties
+07-Aug-2019 08:21:30.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2019 08:21:30.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2019 08:21:30.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2019 08:21:30.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Aug-2019 08:21:30.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+07-Aug-2019 08:21:30.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+07-Aug-2019 08:21:30.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2019 08:21:30.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/lucee/tomcat
+07-Aug-2019 08:21:30.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/lucee/tomcat
+07-Aug-2019 08:21:30.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/lucee/tomcat/temp
+07-Aug-2019 08:21:30.877 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+07-Aug-2019 08:21:31.230 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:21:31.271 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:21:31.281 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [715] milliseconds
+07-Aug-2019 08:21:31.339 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2019 08:21:31.340 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.20]
+07-Aug-2019 08:21:31.879 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2019 08:21:31.910 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: conf reload check set to 1s
+07-Aug-2019 08:21:31.976 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender (file:/opt/lucee/lib/lucee-5.3.2.77.jar) to method java.net.URLClassLoader.addURL(java.net.URL)
+WARNING: Please consider reporting this to the maintainers of org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[mod_cfml] Starting mod_cfml version: 1.1.09
+07-Aug-2019 08:21:33.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/lucee/tomcat/webapps/ROOT]
+07-Aug-2019 08:21:33.630 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/opt/lucee/tomcat/webapps/ROOT]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[127.0.0.1].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+		... 37 more
+	Caused by: java.lang.IllegalStateException: Unknown protocol: jrt
+		at org.apache.felix.framework.URLHandlersStreamHandlerProxy.hashCode(URLHandlersStreamHandlerProxy.java:224)
+		at java.base/java.net.URL.hashCode(URL.java:957)
+		at java.base/java.util.HashMap.hash(HashMap.java:339)
+		at java.base/java.util.HashMap.containsKey(HashMap.java:591)
+		at java.base/java.util.HashSet.contains(HashSet.java:204)
+		at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:288)
+		at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+		at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+		at org.apache.catalina.startup.ContextConfig.processJarsForWebFragments(ContextConfig.java:1963)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1129)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+07-Aug-2019 08:21:33.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/lucee/tomcat/webapps/ROOT] has finished in [48] ms
+07-Aug-2019 08:21:33.638 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:21:33.661 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:21:33.671 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2,389] milliseconds
+07-Aug-2019 08:21:35.621 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: conf file modified since last load, reloading
+07-Aug-2019 08:21:35.636 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+Preside System Output (enduser) [2019-08-07 08:21:36]: Application starting up (fwreinit called, or application starting for the first time).
+Preside System Output (enduser) [2019-08-07 08:21:52]: Application start up complete
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Preside System Output (enduser) [2019-08-07 08:21:54]: Failed to start taskmanager heartbeat. Retrying...(attempt 1)
+Preside System Output (enduser) [2019-08-07 08:21:55]: Failed to start taskmanager heartbeat. Retrying...(attempt 2)
+Preside System Output (enduser) [2019-08-07 08:21:56]: Failed to start taskmanager heartbeat. Retrying...(attempt 3)
+Preside System Output (enduser) [2019-08-07 08:21:57]: Failed to start taskmanager heartbeat. Retrying...(attempt 4)
+Preside System Output (enduser) [2019-08-07 08:21:57]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 1)
+Preside System Output (enduser) [2019-08-07 08:21:57]: Failed to start email queue heartbeat. Retrying...(attempt 1)
+Preside System Output (enduser) [2019-08-07 08:21:58]: Failed to start taskmanager heartbeat. Retrying...(attempt 5)
+Preside System Output (enduser) [2019-08-07 08:21:59]: Failed to start taskmanager heartbeat. Retrying...(attempt 6)
+Preside System Output (enduser) [2019-08-07 08:22:00]: Failed to start taskmanager heartbeat. Retrying...(attempt 7)
+Preside System Output (enduser) [2019-08-07 08:22:01]: Failed to start taskmanager heartbeat. Retrying...(attempt 8)
+Preside System Output (enduser) [2019-08-07 08:22:02]: Failed to start taskmanager heartbeat. Retrying...(attempt 9)
+Preside System Output (enduser) [2019-08-07 08:22:02]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 2)
+Preside System Output (enduser) [2019-08-07 08:22:02]: Failed to start email queue heartbeat. Retrying...(attempt 2)
+Preside System Output (enduser) [2019-08-07 08:22:03]: Failed to start taskmanager heartbeat. Retrying...(attempt 10)
+Preside System Output (enduser) [2019-08-07 08:22:07]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 3)
+Preside System Output (enduser) [2019-08-07 08:22:07]: Failed to start email queue heartbeat. Retrying...(attempt 3)
+Preside System Output (enduser) [2019-08-07 08:22:12]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 4)
+Preside System Output (enduser) [2019-08-07 08:22:12]: Failed to start email queue heartbeat. Retrying...(attempt 4)
+Preside System Output (enduser) [2019-08-07 08:22:17]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 5)
+Preside System Output (enduser) [2019-08-07 08:22:17]: Failed to start email queue heartbeat. Retrying...(attempt 5)
+Preside System Output (enduser) [2019-08-07 08:22:22]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 6)
+Preside System Output (enduser) [2019-08-07 08:22:23]: Failed to start email queue heartbeat. Retrying...(attempt 6)
+Preside System Output (enduser) [2019-08-07 08:22:27]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 7)
+Preside System Output (enduser) [2019-08-07 08:22:28]: Failed to start email queue heartbeat. Retrying...(attempt 7)
+Preside System Output (enduser) [2019-08-07 08:22:32]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 8)
+Preside System Output (enduser) [2019-08-07 08:22:33]: Failed to start email queue heartbeat. Retrying...(attempt 8)
+Preside System Output (enduser) [2019-08-07 08:22:37]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 9)
+Preside System Output (enduser) [2019-08-07 08:22:38]: Failed to start email queue heartbeat. Retrying...(attempt 9)
+Preside System Output (enduser) [2019-08-07 08:22:42]: Failed to start adhoc taskmanager heartbeat. Retrying...(attempt 10)
+Preside System Output (enduser) [2019-08-07 08:22:43]: Failed to start email queue heartbeat. Retrying...(attempt 10)
+07-Aug-2019 08:31:51.136 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Aug-2019 08:31:51.136 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:31:51.143 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:31:51.144 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2019 08:31:51.149 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+07-Aug-2019 08:31:56.265 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-259] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.3/java.lang.Object.wait(Native Method)
+ lucee.commons.io.SystemUtil.wait(SystemUtil.java:680)
+ lucee.commons.io.retirement.RetireOutputStreamFactory$RetireThread.run(RetireOutputStreamFactory.java:71)
+07-Aug-2019 08:31:56.276 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:31:56.287 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:31:56.292 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:31:56.294 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2019 08:32:01.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.20
+07-Aug-2019 08:32:01.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2019 22:26:00 UTC
+07-Aug-2019 08:32:01.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.20.0
+07-Aug-2019 08:32:01.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Aug-2019 08:32:01.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-54-generic
+07-Aug-2019 08:32:01.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Aug-2019 08:32:01.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/lucee/jre
+07-Aug-2019 08:32:01.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.3+7
+07-Aug-2019 08:32:01.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+07-Aug-2019 08:32:01.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/lucee/tomcat
+07-Aug-2019 08:32:01.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/lucee/tomcat
+07-Aug-2019 08:32:01.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/lucee/tomcat/conf/logging.properties
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Aug-2019 08:32:01.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/lucee/tomcat
+07-Aug-2019 08:32:01.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/lucee/tomcat
+07-Aug-2019 08:32:01.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/lucee/tomcat/temp
+07-Aug-2019 08:32:01.503 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+07-Aug-2019 08:32:01.963 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:32:02.021 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:32:02.028 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [886] milliseconds
+07-Aug-2019 08:32:02.120 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Aug-2019 08:32:02.123 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.20]
+07-Aug-2019 08:32:02.802 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Aug-2019 08:32:02.828 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: conf reload check set to 1s
+07-Aug-2019 08:32:02.893 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender (file:/opt/lucee/lib/lucee-5.3.2.77.jar) to method java.net.URLClassLoader.addURL(java.net.URL)
+WARNING: Please consider reporting this to the maintainers of org.apache.felix.framework.ext.ClassPathExtenderFactory$DefaultClassLoaderExtender
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+07-Aug-2019 08:32:04.313 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 21 more
+	Caused by: java.lang.IllegalStateException: Unknown protocol: jrt
+		at org.apache.felix.framework.URLHandlersStreamHandlerProxy.hashCode(URLHandlersStreamHandlerProxy.java:224)
+		at java.base/java.net.URL.hashCode(URL.java:957)
+		at java.base/java.util.HashMap.hash(HashMap.java:339)
+		at java.base/java.util.HashMap.containsKey(HashMap.java:591)
+		at java.base/java.util.HashSet.contains(HashSet.java:204)
+		at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:288)
+		at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+		at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+		at org.apache.catalina.startup.ContextConfig.processJarsForWebFragments(ContextConfig.java:1963)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1129)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 27 more
+[mod_cfml] Starting mod_cfml version: 1.1.09
+07-Aug-2019 08:32:04.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/lucee/tomcat/webapps/ROOT]
+07-Aug-2019 08:32:04.345 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/opt/lucee/tomcat/webapps/ROOT]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[127.0.0.1].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+		... 37 more
+	Caused by: java.lang.IllegalStateException: Unknown protocol: jrt
+		at org.apache.felix.framework.URLHandlersStreamHandlerProxy.hashCode(URLHandlersStreamHandlerProxy.java:224)
+		at java.base/java.net.URL.hashCode(URL.java:957)
+		at java.base/java.util.HashMap.hash(HashMap.java:339)
+		at java.base/java.util.HashMap.containsKey(HashMap.java:591)
+		at java.base/java.util.HashSet.contains(HashSet.java:204)
+		at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:288)
+		at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+		at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+		at org.apache.catalina.startup.ContextConfig.processJarsForWebFragments(ContextConfig.java:1963)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1129)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+07-Aug-2019 08:32:04.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/lucee/tomcat/webapps/ROOT] has finished in [30] ms
+07-Aug-2019 08:32:04.348 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:921)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 21 more
+	Caused by: java.lang.IllegalStateException: Unknown protocol: jrt
+		at org.apache.felix.framework.URLHandlersStreamHandlerProxy.hashCode(URLHandlersStreamHandlerProxy.java:224)
+		at java.base/java.net.URL.hashCode(URL.java:957)
+		at java.base/java.util.HashMap.hash(HashMap.java:339)
+		at java.base/java.util.HashMap.containsKey(HashMap.java:591)
+		at java.base/java.util.HashSet.contains(HashSet.java:204)
+		at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:288)
+		at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+		at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+		at org.apache.catalina.startup.ContextConfig.processJarsForWebFragments(ContextConfig.java:1963)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1129)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 27 more
+07-Aug-2019 08:32:04.352 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:921)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:921)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[3dboxexample.shop].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		... 21 more
+	Caused by: java.lang.IllegalStateException: Unknown protocol: jrt
+		at org.apache.felix.framework.URLHandlersStreamHandlerProxy.hashCode(URLHandlersStreamHandlerProxy.java:224)
+		at java.base/java.net.URL.hashCode(URL.java:957)
+		at java.base/java.util.HashMap.hash(HashMap.java:339)
+		at java.base/java.util.HashMap.containsKey(HashMap.java:591)
+		at java.base/java.util.HashSet.contains(HashSet.java:204)
+		at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:288)
+		at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:278)
+		at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+		at org.apache.catalina.startup.ContextConfig.processJarsForWebFragments(ContextConfig.java:1963)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1129)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 27 more
+07-Aug-2019 08:32:04.356 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:32:04.357 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Aug-2019 08:32:04.358 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Aug-2019 08:32:04.361 INFO [main] org.apache.catalina.core.ApplicationContext.log org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+07-Aug-2019 08:32:09.452 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [FelixResolver-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.3/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+07-Aug-2019 08:32:09.453 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [FelixResolver-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.3/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.3/java.lang.Thread.run(Thread.java:834)
+07-Aug-2019 08:32:09.458 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Aug-2019 08:32:09.460 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
