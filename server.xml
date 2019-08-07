@@ -18,7 +18,15 @@
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" prefix="localhost_access_log" suffix=".txt" pattern="%h %l %u %t &quot;%r&quot; %s %b" />
         <Valve className="mod_cfml.core" loggingEnabled="false" maxContexts="200" timeBetweenContexts="2000" scanClassPaths="false" sharedKey="e091a72418315e9aa60c2b0b955d2fc3ef21347c14cf218a671dbc27f6667a25" />
       </Host>
-  
+
+      <Host name="3dboxexample.shop" appBase="webapps">
+          <Context path="" docBase="/var/www/3D_box_example" />
+      </Host>
+
+      <Host name="bachsoftwarevul.shop" appBase="webapps">
+          <Context path="" docBase="/var/www/bachsoftware.shop" />
+      </Host>
+
     </Engine>
   </Service>
 </Server>       
