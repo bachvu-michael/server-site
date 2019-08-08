@@ -23,11 +23,20 @@
           <Context path="" docBase="/var/www/3D_box_example" />
       </Host>
 
-      <Host name="bachsoftwarevul.shop" appBase="webapps">
+      <Host name="bachsoftware.shop" appBase="webapps">
           <Context path="" docBase="/var/www/bachsoftware.shop" />
       </Host>
       <Host name="ielts4chance.shop" appBase="webapps">
           <Context path="" docBase="/var/www/ielts4chance" />
+      </Host>
+      <Host name="3dboxexample1.shop" appBase="webapps">
+          <Context path="" docBase="/var/www/3D_box_example_1" />
+      </Host>
+      <Host name="3dboxexample2.shop" appBase="webapps">
+          <Context path="" docBase="/var/www/3D_box_example_2" />
+      </Host>
+      <Host name="3dboxexample3.shop" appBase="webapps">
+          <Context path="" docBase="/var/www/3D_box_example_3" />
       </Host>
 
     </Engine>
