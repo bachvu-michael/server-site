@@ -35,10 +35,32 @@
       <Host name="3dboxexample2.shop" appBase="webapps">
           <Context path="" docBase="/var/www/3D_box_example_2" />
       </Host>
-      <Host name="3dboxexample3.shop" appBase="webapps">
-          <Context path="" docBase="/var/www/3D_box_example_3" />
+      <Host name="lagermitteltest.de" appBase="webapps">
+          <Context path="" docBase="/var/www/pallet-site" />
+      </Host>
+       <Host name="app.lagermitteltest.de" appBase="webapps">
+          <Context path="" docBase="/var/www/pallet" />
       </Host>
 
     </Engine>
   </Service>
-</Server>       
+</Server>
+
+<filter>
+    <filter-name>UrlRewriteFilter</filter-name>
+    <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+    <init-param>
+        <param-name>confPath</param-name>
+        <param-value>/urlrewrite.xml</param-value>
+    </init-param>
+    <init-param>
+        <param-name>confReloadCheckInterval</param-name>
+        <param-value>1</param-value>
+    </init-param>
+</filter>
+<filter-mapping>
+    <filter-name>UrlRewriteFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+</filter-mapping>
