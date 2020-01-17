@@ -26,9 +26,13 @@
       <Host name="bachsoftware.shop" appBase="webapps">
           <Context path="" docBase="/var/www/bachsoftware.shop" />
       </Host>
-      <Host name="ielts4chance.shop" appBase="webapps">
+      <Host name="ielts4chance.com" appBase="webapps">
           <Context path="" docBase="/var/www/ielts4chance" />
       </Host>
+      <Host name="beomatrade.com" appBase="webapps">
+          <Context path="" docBase="/var/www/beomatrade" />
+      </Host>
+
       <Host name="3dboxexample1.shop" appBase="webapps">
           <Context path="" docBase="/var/www/3D_box_example_1" />
       </Host>
