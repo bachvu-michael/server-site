@@ -1,0 +1,29 @@
+
+listen 443 ssl;
+ssl    on;
+ssl_certificate    /etc/nginx/ssl/app.lagermittel.de/app_lagermittel_de.crt;
+ssl_certificate_key    /etc/nginx/ssl/app.lagermittel.de/app_lagermittel_de.pem;
+
+ if ($scheme != "https") {
+        return 301 https://$host$request_uri;
+    }
+
+server {
+    if ($host = www.app.lagermittel.de) {
+        return 301 https://$host$request_uri;
+    }
+    listen 80;
+    server_name www.app.lagermittel.de;
+    return 404;
+}
+
+
+server {
+     if ($host = app.lagermittel.de) {
+         return 301 https://$host$request_uri;
+     }
+     listen 80;
+     server_name lagermittel.de;
+     return 404;
+}
+
